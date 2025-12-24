@@ -7,6 +7,8 @@ A process is an instance of a running program. Linux provides multiple utilities
 
 ### Viewing Processes
 - `ps aux` – View all running processes
+- `ps aux | nl` – View all running processes with line numbers
+- `ps aux | wc -l` – View total count of running processes
 - `ps -u username` – View processes for a specific user
 - `ps -C processname` – Show a process by name
 - `pgrep processname` – Find a process by name and return its PID
